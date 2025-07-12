@@ -1,0 +1,16 @@
+{
+  "name": "ep-simple-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application with Easypanel tagline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["nodejs", "express", "easypanel"],
+  "author": "",
+  "license": "MIT"
+} 

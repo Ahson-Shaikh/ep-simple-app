@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easypanel Simple App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🚀 Easypanel Simple App</h1>
+            <p class="tagline">Deploy your apps with ease</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="card">
+                <h2>Welcome to Easypanel!</h2>
+                <p class="description">
+                    This is a simple Node.js application showcasing how easy it is to deploy applications with Easypanel.
+                    Build, deploy, and manage your applications effortlessly.
+                </p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <span class="icon">⚡</span>
+                        <span>Fast Deployment</span>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🔧</span>
+                        <span>Easy Management</span>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🛡️</span>
+                        <span>Secure & Reliable</span>
+                    </div>
+                </div>
+                
+                <button class="btn" onclick="checkHealth()">Check Server Health</button>
+                <div id="health-status" class="health-status"></div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Easypanel - Making deployment simple</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
